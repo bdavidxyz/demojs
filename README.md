@@ -1,0 +1,1 @@
+Javascript snippets available on the website

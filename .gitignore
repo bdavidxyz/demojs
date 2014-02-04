@@ -1,0 +1,36 @@
+# IDE folders or files #
+.idea/
+*.iml
+
+#ignore idea web module
+web/
+
+#ignore log file
+*.log
+
+#ignore npm modules
+node_modules/
+
+# ignore maven build #
+target/
+
+# temporary files and folders #
+*~
+.tmp/
+
+# temporary directory for sass #
+.sass-cache/
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+
+#ignore system file
+.DS_Store
+
+#ignore local web server
+web-server.js
