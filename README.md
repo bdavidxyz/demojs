@@ -1,1 +1,1 @@
-Javascript snippets available on the website
+[WEBSITE](http://davidb583.github.io/demojs).
