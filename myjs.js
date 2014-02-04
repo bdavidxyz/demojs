@@ -3,6 +3,23 @@ function badFunction() {
     zeBadGlobal = "iAmABadGlobalVar";
 }
 
+var henry = {
+    age : 37,
+    beOlder : function() {this.age += 1; },
+    size: {cm: 116, val: "XL"}
+};
+
+var alfred = new Person();
+var mike = new Person();
+
+function complicatedFunction(x) {
+    var z = 2;
+    return function (y) {
+        z = z + 1;
+        console.log(x + y + z);
+    }
+}
+
 function evaluateFalsynessTest(testVar) {
     if (testVar){
         console.log("yes, true");
@@ -34,6 +51,14 @@ function sayHelloToEverybody3() {
     }
     console.log("hello to " + everyBody);
 }
+
+function Person() {
+    this.age = 37;
+    this.beOlder = function() {this.age += 1; };
+    this.size= {cm: 178, val: "XL"};
+    return "ok"; // ok but unuseful
+}
+
 
 function negate(func) {
     return function(x) {
