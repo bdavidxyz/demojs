@@ -12,6 +12,14 @@ var henry = {
 var alfred = new Person();
 var mike = new Person();
 
+var employees = [
+    {role:"boss",    salary:1500},
+{role:"worker", salary: 2000},
+{role:"worker", salary: 1000},
+{role:"worker", salary: 600},
+{role:"worker", salary: 900},
+{role:"worker", salary: 1700}];
+
 function complicatedFunction(x) {
     var z = 2;
     return function (y) {
