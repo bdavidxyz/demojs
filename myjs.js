@@ -30,9 +30,9 @@ function complicatedFunction(x) {
 
 function evaluateFalsynessTest(testVar) {
     if (testVar){
-        console.log("yes, true");
+        console.log("truthy");
     } else {
-        console.log("no, false");
+        console.log("falsy");
     }
 }
 
